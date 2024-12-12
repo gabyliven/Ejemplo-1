@@ -5,3 +5,11 @@ libros = {
  "El Gran Gatsby": {"autor": "F. Scott Fitzgerald", "año": 1925, "género":
 "Ficción", "calificación": 4.3}
 }
+
+
+libro = "1984"
+print(f"Detalles del libro '{libro}':")
+print(f"Autor: {libros[libro]['autor']}")
+print(f"Año de publicación: {libros[libro]['año']}")
+print(f"Género: {libros[libro]['género']}")
+print(f"Calificación: {libros[libro]['calificación']}")
