@@ -13,3 +13,7 @@ print(f"Autor: {libros[libro]['autor']}")
 print(f"Año de publicación: {libros[libro]['año']}")
 print(f"Género: {libros[libro]['género']}")
 print(f"Calificación: {libros[libro]['calificación']}")
+
+
+libros["1984"]["calificación"] = 5.0
+print(f"Nueva calificación de '1984': {libros['1984']['calificación']}")
